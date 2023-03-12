@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "eda-aviacao"
+version = "0.1.0"
+description = "Dados Ocorrências Aeronáuticas na Aviação Civil Brasileira"
+authors = ["Bruno Pereira Barella <brunobarella@gmail.com>"]
+readme = "README.md"
+packages = [{include = "eda_aviacao"}]
+
+[tool.poetry.dependencies]
+python = "3.8.10"
+kaleido = "0.2.1"
+pycaret = "3.0.0-rc9"
+seaborn = "^0.12.2"
+plotly = "^5.13.1"
+scikit-optimize = "^0.9.0"
+explainerdashboard = "^0.4.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
